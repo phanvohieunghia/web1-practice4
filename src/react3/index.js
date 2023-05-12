@@ -2,7 +2,7 @@ import Button from "react-bootstrap/Button";
 import React, { useState } from "react";
 import "./style.scss";
 
-const UsingState = () => {
+const React3 = () => {
   const [counter, setCounter] = useState(0);
 
   const increaseCounter = () => {
@@ -10,7 +10,7 @@ const UsingState = () => {
   };
 
   return (
-    <div class="component-using-state">
+    <div class="react3">
       <div className="result">{counter}</div>
       <Button onClick={increaseCounter} size="lg">
         Click
@@ -19,4 +19,4 @@ const UsingState = () => {
   );
 };
 
-export default UsingState;
+export default React3;

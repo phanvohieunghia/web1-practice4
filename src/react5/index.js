@@ -1,19 +1,23 @@
 import { useEffect, useState } from "react";
-import request from "services/request";
+import request from "react5/services/request";
 import "./style.scss";
 
-const Shop = () => {
+const React5 = () => {
   const { getAvatar } = request();
   const [avatar, setAvatar] = useState(null);
 
   useEffect(() => {
-    getAvatar().then((res) => {
-      setAvatar(res[0]);
-    });
+    getAvatar()
+      .then((res) => {
+        setAvatar(res[0]);
+      })
+      .catch((err) => {
+        console.log("lỗi", err);
+      });
   }, []);
 
   return (
-    <div className="shop-page">
+    <div className="react5">
       {!avatar ? null : (
         <>
           <div className="title">Thể loại</div>
@@ -35,4 +39,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default React5;

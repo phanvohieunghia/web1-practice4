@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import BlankLayout from "layouts/Blank";
-import HomeLayout from "layouts/home";
+import BlankLayout from "react1/layouts/blank";
+import HomeLayout from "react1/layouts/home";
 
-import Home from "pages/home";
-import Shop from "pages/shop";
-import Contact from "pages/contact";
+import Home from "react1/pages/home";
+import Shop from "react1/pages/shop";
+import Contact from "react1/pages/contact";
 
-import Login from "pages/login";
+import Login from "react1/pages/login";
 
 const Router = () => {
   return (
