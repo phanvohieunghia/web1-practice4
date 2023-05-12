@@ -1,0 +1,10 @@
+.component-using-state {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  flex-direction: column;
+  .result {
+    font-size: 60px;
+    text-align: center;
+  }
+}
