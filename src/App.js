@@ -10,10 +10,10 @@ function App() {
   return (
     <div className="App">
       {/* React 1 */}
-      {/* <Router /> */}
+      <Router />
 
       {/* React 2 */}
-      <React2 />
+      {/* <React2 /> */}
 
       {/* React 3 */}
       {/* <React3 /> */}
