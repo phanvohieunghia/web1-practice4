@@ -5,12 +5,13 @@ import React2 from "react2";
 import React3 from "react3";
 import React4 from "react4";
 import React5 from "react5";
+import React6 from "react6";
 
 function App() {
   return (
     <div className="App">
       {/* React 1 */}
-      <Router />
+      {/* <Router /> */}
 
       {/* React 2 */}
       {/* <React2 /> */}
@@ -23,6 +24,9 @@ function App() {
 
       {/* React 5 */}
       {/* <React5 /> */}
+
+      {/* React 6 */}
+      <React6 />
     </div>
   );
 }

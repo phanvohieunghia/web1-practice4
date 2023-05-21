@@ -4,3 +4,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+:root {
+  --txt1: black;
+  --bg-main: white;
+  &[data-theme="dark"] {
+    --txt1: white;
+    --bg-main: black;
+  }
+}
