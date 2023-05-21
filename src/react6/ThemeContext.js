@@ -4,6 +4,7 @@ const ThemeContext = createContext();
 
 const ThemeProvider = (props) => {
   const { children } = props;
+
   const [theme, setTheme] = useState(false);
 
   const toggleTheme = () => {

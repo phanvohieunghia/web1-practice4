@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
+ul,
+li {
+  margin: 0;
+  margin-bottom: 0;
+}
 :root {
   --txt1: black;
   --bg-main: white;
