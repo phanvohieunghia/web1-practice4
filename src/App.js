@@ -8,6 +8,7 @@ import React5 from "react5";
 import React6 from "react6";
 import React7 from "react7";
 import React7UseBootstrap from "react7/React7UseBootstrap";
+import React8 from "react8";
 
 function App() {
   return (
@@ -32,7 +33,10 @@ function App() {
 
       {/* React 7 */}
       {/* <React7 /> */}
-      <React7UseBootstrap />
+      {/* <React7UseBootstrap /> */}
+
+      {/* React 8 */}
+      <React8 />
     </div>
   );
 }
