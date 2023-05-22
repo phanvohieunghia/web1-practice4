@@ -9,6 +9,7 @@ import React6 from "react6";
 import React7 from "react7";
 import React7UseBootstrap from "react7/React7UseBootstrap";
 import React8 from "react8";
+import React9 from "react9";
 
 function App() {
   return (
@@ -36,7 +37,10 @@ function App() {
       {/* <React7UseBootstrap /> */}
 
       {/* React 8 */}
-      <React8 />
+      {/* <React8 /> */}
+
+      {/* React 9 */}
+      <React9 />
     </div>
   );
 }
